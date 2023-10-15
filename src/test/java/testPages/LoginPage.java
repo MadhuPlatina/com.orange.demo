@@ -19,6 +19,8 @@ public class LoginPage {
 		driver.findElement(By.name("city")).sendKeys("Atlanta");
 		driver.findElement(By.id("pincode")).sendKeys("675456");
 		driver.findElement(By.name("StreetAddress")).sendKeys("test");
+		driver.findElement(By.id("EmployeeInformation")).click();
+		driver.findElement(By.id("EmployeeHolidays")).click();
 		
 		
 
