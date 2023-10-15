@@ -21,6 +21,10 @@ public class LoginPage {
 		driver.findElement(By.name("StreetAddress")).sendKeys("test");
 		driver.findElement(By.id("EmployeeInformation")).click();
 		driver.findElement(By.id("EmployeeHolidays")).click();
+		driver.findElement(By.id("Avenue")).click();
+		String count=driver.getWindowHandle();
+		System.out.println("Window Handle is:"+count);
+		
 		
 		
 
